@@ -16,9 +16,7 @@ age = st.number_input("Age", min_value=0)
 
 if st.button("Predict"):
 
-    url = "url = "url = "https://your-backend-name.onrender.com/predict"
-"
-"
+    url = "https://diabetes-ml-fullstack-1.onrender.com/predict"
 
     data = {
         "Pregnancies": pregnancies,
