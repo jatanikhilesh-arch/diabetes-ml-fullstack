@@ -2,8 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import numpy as np
-from openai import OpenAI
-import os
+
 
 app = FastAPI()
 
