@@ -7,7 +7,6 @@ import os
 
 app = FastAPI()
 
-client = OpenAI(api_key="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")
 
 
 model = joblib.load("model.pkl")
